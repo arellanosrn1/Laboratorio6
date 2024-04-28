@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página 1</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="index.html">Mi Sitio Web</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="pagina1.html">Página 1</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="pagina2.html">Página 2</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="pagina3.html">Página 3</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<div class="container mt-5">
+  <h1>Los 3 Mejores Estadios de Europa</h1>
+  <!-- Inserta aquí tus 3 párrafos, 3 imágenes y 2 componentes de Bootstrap -->
+</div>
+
+<!-- 3 párrafos -->
+<div class="container mt-5">
+  <p>Old Trafford, ubicado en Manchester, Inglaterra, es uno de los estadios más icónicos del fútbol mundial, con una capacidad de aproximadamente 74,140 espectadores. Inaugurado en 1910, ha sido el hogar del Manchester United desde entonces, siendo testigo de innumerables momentos históricos en el fútbol inglés y europeo. A lo largo de los años, ha sido renovado y modernizado para mejorar la experiencia de los espectadores, manteniendo su estatus como uno de los templos del fútbol.</p>
+  <p>El Aviva Stadium, situado en Dublín, Irlanda, tiene una capacidad de alrededor de 51,700 espectadores. Inaugurado en 2010, es el hogar de la selección nacional de fútbol de Irlanda y se utiliza también para rugby y otros eventos deportivos y de entretenimiento. Con instalaciones modernas y un diseño arquitectónico impresionante, el Aviva Stadium ofrece una experiencia memorable para los aficionados.</p>
+  <p>Por último, el Etihad Stadium, en Manchester, Inglaterra, tiene una capacidad de aproximadamente 53,000 espectadores. Inaugurado en 2003, es el hogar del Manchester City Football Club y fue construido originalmente para los Juegos de la Commonwealth de 2002. A lo largo de los años, ha experimentado expansiones y mejoras para aumentar su capacidad y mejorar la experiencia de los aficionados, siendo conocido por su vibrante ambiente en los partidos del Manchester City.</p>
+</div>
+
+<!-- Carrusel de imágenes -->
+  <div class="container mt-5">
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100" src="imagen1.jpg" alt="First slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="imagen2.jpg" alt="Second slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="imagen3.jpg" alt="Third slide">
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Anterior</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Siguiente</span>
+      </a>
+    </div>
+  </div>
+
+  <!-- Botón de Bootstrap -->
+  <div class="text-center mt-3">
+    <a href="index.html" class="btn btn-primary">Ir a la página principal</a>
+  </div>
+  
+</div>
+
+<!-- Bootstrap JS y jQuery (opcional) -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
